@@ -15,5 +15,8 @@ int main()
     int &r3 = i3, &r4 = i2;  // r3 is a reference,binding to i3,r4 is a reference too,binding to i2.
 
     // int &refVal4 = 10; compile error: the initial value of the reference type must be an object.
+    double dval = 3.14;
+    // int &refVal5 = dval; compile error: the type of the reference must be int at there. 
+
     return 0;
 }

@@ -40,8 +40,7 @@ int main()
         int **ppi = &pi; // ppi指向一个int型的指针,如果要通过ppi访问ival的值,需要解引用两次
     }
 
-    int *ippppp;
-    std::cout << ippppp << std::endl;
+   
 
     return 0;
 }
