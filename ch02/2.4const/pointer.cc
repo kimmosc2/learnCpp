@@ -18,8 +18,13 @@ int main()
         // 常量指针(存放在指针中的地址不能改变，即不变的是指针本身的值而非指向的那个值)
         int errNumb = 0;
         int *const curErr = &errNumb; // curErr将一直指向errNumb
+        // *curErr =  5;
+        // std::cout << *curErr << std::endl;
         const double pi = 3.14159;
         const double *const pip = &pi; // pip是一个指向常量对象的常量指针
+        
     }
+
+
     return 0;
 }
